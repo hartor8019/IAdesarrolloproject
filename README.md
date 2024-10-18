@@ -28,12 +28,17 @@ El proyecto consiste en un buscador semantico de peliculas, este proyecto funcio
 # Abrir una terminal dentro del proyecto(debe verse +/- asi) pero con el nombre IAdesarrolloproject
  ![image](https://github.com/user-attachments/assets/a9de3ca4-e0ed-486c-b093-24de501125ce)
 
-# crear una imagen docker de mi proyecto
+# Crear una imagen docker de mi proyecto
 Asegúrate de tener Docker Desktop abierto antes de ejecutar el siguiente comando:
-docker build -t IAdesarrolloproject .   
-# correr docker
-docker run -it IAdesarrolloproject   ó   docker run -d IAdesarrolloproject
-(Si lo prefiere puedes ir a la Interfaz grafica de Docker Desktop y ejecutarlo desde ahi, como se muestra en la siguiente grafica.
+
+* docker build -t IAdesarrolloproject . 
+
+# Iniciar Imagen en docker
+Para iniciar una imagen en Docker se usan los siguientes comandos.
+
+* docker run -it IAdesarrolloproject   ó   docker run -d IAdesarrolloproject
+
+Nota: Si lo prefiere puedes ir a la Interfaz grafica de Docker Desktop y ejecutarlo desde ahi, como se muestra en la siguiente grafica.
 
 ![image](https://github.com/user-attachments/assets/3f54115d-fe21-46c1-a624-c92879e92d5c)
 
@@ -61,9 +66,13 @@ coverage html (esto creara un un directorio llamado htmlcov con archivo llamado 
 
 ![image](https://github.com/user-attachments/assets/79d9d58f-cfca-4c7f-bfc7-fd08538ad748)
 
-# Información adicional sobre Semantic_search_studients_M.ipynb
+# Información adicional sobre la Entrega
 
-En este proyecto se realizó un Análisis Exploratorio de Datos (EDA) para comprender mejor el conjunto de datos y extraer información clave. Además, se llevaron a cabo diversas pruebas sobre cada una de las líneas de código para optimizar su funcionamiento y garantizar que el desarrollo fuera el más eficiente posible.
+En este proyecto se realizó un Análisis Exploratorio de Datos (EDA) al dataset llamado "IMDBtop1000.csv" con el fin de comprender mejor el conjunto de datos y extraer información clave de este. 
+
+#Analisis Exploratorio de Datos (EDA)
+
+* Nombre : EDA dataset_Peliculas.ipynb
 
 El código resultante de este análisis y pruebas fue integrado en el archivo principal main_students.py, con el objetivo de mejorar su desempeño y funcionalidad en el contexto del proyecto.
 
