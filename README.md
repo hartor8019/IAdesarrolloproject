@@ -1,6 +1,17 @@
 # Desarollo de Proyectos IA
 Segunda Entrega del proyecto en Docker
 
+En esta segunda entrega del proyecto se realizaron las siguiente actividades.
+
+* 1 Implementar 2 principios Solid (SRP , DIP)
+* 2 Implementar 1 Patron de diseño (Patron Factory)
+* 3 Pruebas Unitarias (Unittest)
+* 4 Cobertura >= 70 % - (Coverage)
+* 5 Visualizacion Web (Coverage)
+* 6 Corriendo en Docker 
+* 7 Subir código a GitHub con Git
+* 8 Análisis EDA (EDA_dataset_Peliculas.ipynb)
+
 ### PROYECTO DE BUSCADOR DE PELÍCULAS SEMÁNTICAS
 <hr>
 Para el desarrollo de este proyecto fue necesario adquirir conocimientos sobre el manejo de algunas herramientas tales como :
@@ -74,7 +85,12 @@ En este proyecto se realizó un Análisis Exploratorio de Datos (EDA) al dataset
 
 * Nombre : EDA dataset_Peliculas.ipynb
 
-El código resultante de este análisis y pruebas fue integrado en el archivo principal main_students.py, con el objetivo de mejorar su desempeño y funcionalidad en el contexto del proyecto.
+Instrucciones:
+
+* Abrir el archivo llamado EDA_dataset_Peliculas.ipynb en Google Colab
+* Subir el archivo Dataset llamado "IMDBtop1000.csv"
+* Ejecutar Celda a Celda o Todo si se quiere.
+
 
 
 
